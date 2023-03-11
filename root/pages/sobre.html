@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <!--Cabeçalho-->
+    <head>
+        <title>HTML5 - Aulas</title>
+        <meta charset="utf-8" />
+    </head>
+    <style>
+        body {
+            width: 80%;
+            margin: auto;
+            font-size: 1.3em;
+            font-family: Cambria, Cochin, Georgia, Times, "Times New Roman",
+                serif;
+            line-height: 1.3em;
+            border: 1px dashed #ccc;
+            padding: 10px;
+        }
+        figure {
+            padding: 20px;
+        }
+        header * {
+            font-size: 2em;
+            font-weight: 700;
+        }
+        header img {
+            width: 80px;
+        }
+        audio {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        select {
+            font-size: 1em;
+        }
+    </style>
+    <!--Conteúdo-->
+    <body>
+        <header>
+            <img src="../images/svg/cenoura.svg" alt="Cenoura" width="30" />
+            <span>Nosso Restaurante</span>
+            <hr />
+
+            <audio
+                src="../audio/inspiring.mp3"
+                type="audio/mp3"
+                controls
+            ></audio>
+            <br />
+            <video width="60%" autoplay muted controls>
+                <source src="../videos/refeicao.mp4" type="video/mp4" />
+                <source src="../videos/refeicao.webm" type="video/webm" />
+            </video>
+        </header>
+        <nav>
+            <span>Barra de Navegação</span>
+            <br />
+            <a href="../index.html">Inicio</a>
+            <a href="#carnes">Carnes Nobres</a>
+            <a href="#contato">Contatos</a>
+        </nav>
+        <main>
+            <section>
+                <article>
+                    <h1>Sobre Nosso Compromisso</h1>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Laborum vero quo, quas illum nobis exercitationem,
+                        obcaecati, nesciunt itaque fugiat repellat autem tempora
+                        optio minus temporibus veritatis dignissimos aliquam
+                        laudantium expedita! Tempore a placeat autem. Deleniti
+                        accusantium id expedita voluptatem adipisci iste, magnam
+                        tempora saepe perferendis enim eum dolorum possimus quam
+                        dignissimos minus quis? Quia veritatis odio, quidem
+                        adipisci sunt est atque beatae, quam, harum sequi
+                        voluptatum perspiciatis amet tempora? Aspernatur
+                        assumenda veniam facilis facere! Quasi corporis ad et
+                        est repellendus.
+                    </p>
+                    <img
+                        width="400"
+                        src="../images/here-take-look-our-menu.jpg"
+                        alt="Conheça nosso menu"
+                        title="conheça nosso menu"
+                    />
+
+                    <h3>Nossos pratos</h3>
+                    <p>
+                        Escolha suas opções de massa
+                        <abbr title="Tipo de cozimento mais consistente">
+                            All dente</abbr
+                        >
+                    </p>
+                    <p>
+                        <bdo dir="Tipo de cozimento mais consistente"
+                            >Não perca nossa semana gourmet</bdo
+                        >
+                    </p>
+                    <!--type= a/ A/ i/ I-->
+                    <ol type="i" start="4">
+                        <li>Pastas</li>
+                        <li>Carnes</li>
+                        <li>Caldos</li>
+                        <li>Frutos do mar</li>
+                    </ol>
+                </article>
+                <hr />
+                <article>
+                    <nav>
+                        <a href="cozinha_01.html" target="cozinha"
+                            >Tudo altamente selecionado</a
+                        >
+                        <a href="cozinha_02.html" target="cozinha"
+                            >Conheça nosso espeto de vegetais</a
+                        >
+                    </nav>
+                    <iframe
+                        src="cozinha_01.html"
+                        frameborder="0"
+                        width="80%"
+                        height="1000"
+                        name="cozinha"
+                    ></iframe>
+                </article>
+                <hr />
+                <article>
+                    <h2>Artigo 2</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Qui quos commodi quod maxime beatae! Earum
+                        repudiandae placeat quidem laboriosam doloribus minus
+                        repellat omnis, fugiat explicabo rerum aliquam obcaecati
+                        tempore esse provident expedita, consequuntur maiores
+                        hic soluta dolorem ratione! Molestiae beatae expedita
+                        pariatur, facilis quos tempora, totam repudiandae quia
+                        dolorum hic nihil aut fugiat perferendis repellendus
+                        ipsum maxime vitae doloribus non quod ducimus natus?
+                        Ipsa perferendis optio labore, inventore rem maxime
+                        voluptate earum accusamus ab adipisci commodi, sequi
+                        nemo et laboriosam?
+                    </p>
+                    <h3>
+                        Saboreie nossa coxinha brasileira, nossos drinks. Venha
+                        com a familia e os amigos.
+                    </h3>
+                    <picture>
+                        <source
+                            media="(min-width:600px)"
+                            srcset="../images/cocktail_500.jpg"
+                        />
+                        <source
+                            media="(min-width:480px)"
+                            srcset="../images/info_460.jpg"
+                        />
+                        <img src="../images/coxinha_215.jpg" alt="" />
+                    </picture>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Repellat debitis laudantium totam repellendus fuga in
+                        numquam dicta magni culpa, accusamus omnis praesentium
+                        sapiente illo nemo distinctio doloribus quasi odio odit
+                        earum! Est recusandae illum praesentium incidunt
+                        inventore mollitia, ipsum, fugit alias at deleniti
+                        laboriosam nam labore quas quasi, corrupti cumque rerum
+                        aliquid obcaecati <br />voluptatibus nemo ipsa itaque
+                        deserunt quibusdam. Repellendus voluptatem alias
+                        laudantium odio, ipsam, velit qui maiores, atque
+                        consequuntur suscipit et dolorum libero. Magnam alias
+                        laborum cum optio sit! Officiis ab, possimus ipsa
+                        voluptates esse earum aperiam accusamus illo distinctio
+                        nesciunt culpa sit, eaque et assumenda iusto facilis
+                        nisi explicabo doloribus, minima tenetur natus nostrum.
+                        Assumenda libero totam veniam dolore id error quos
+                        fugit, labore iure quo culpa illum.
+                    </p>
+                    <h3>Para acompanhar</h3>
+                    <!--type= square/ circle-->
+                    <ul type="square">
+                        <li>Saladas</li>
+                        <li>Sobremesas</li>
+                        <li>Vinhos</li>
+                    </ul>
+                    <pre>
+    "Deus não joga dados"
+            <small>Albert Einstein__</small>
+</pre>
+                </article>
+                <hr />
+                <article id="contato">
+                    <h2>Deixe aqui seu recado</h2>
+                    <form action="" method="post" enctype="multipart/form-data">
+                        <fieldset>
+                            <legend>Preencha todos os campos</legend>
+                            <ul>
+                                <li>
+                                    <label for="nome">Nome</label>
+                                    <input
+                                        type="text"
+                                        id="nome"
+                                        name="nome"
+                                        maxlength="30"
+                                        size="50"
+                                        autofocus
+                                        required
+                                    />
+                                </li>
+                                <li>
+                                    <label for="email">Email</label>
+                                    <input
+                                        type="email"
+                                        id="email"
+                                        name="email"
+                                        size="50"
+                                        placeholder="Coloque seu melhor e-mail"
+                                        required
+                                    />
+                                </li>
+                                <li>
+                                    <label for="convidados">Convidados</label>
+                                    <input
+                                        type="number"
+                                        id="convidados"
+                                        name="convidados"
+                                        min="1"
+                                        max="10"
+                                        readonly
+                                        required
+                                    />
+                                </li>
+                                <hr>
+                                <li>
+                                    <label for="entrada">Escolha sua entrada</label>
+                                    <input list="entrada opt" name="entrada" id="entrada">
+                                    <datalist id="entrada opt">
+                                          <option value="Caldo de Mandioquinha"></option>
+                                          <option value="Caprese no Palito"></option>
+                                          <option value="Patê de Azeitonas"></option>
+                                    </datalist>
+                                </li>
+                                <li>
+                                    <label for="aniversariante"
+                                        >Coloque a foto do aniversariante</label
+                                    >
+                                    <input
+                                        type="file"
+                                        id="aniversariante"
+                                        name="aniversariante"
+                                        accept="image/png"
+                                    />
+                                </li>
+                                <li>
+                                    <label for="tipo_comida">Cozinha</label>
+                                    <select name="cozinha" id="cozinha">
+                                        <option value="...">...</option>
+                                        <!--option value="brasileira">Brasileira</option-->
+                                            <optgroup label="Brasileira">
+                                                <option value="feijoada">Feijoada</option>
+                                                <option value="virado">Virado</option>
+                                            </optgroup>
+                                        <!--option value="italiana">Italiana</option-->
+                                            <optgroup label="Italiana">
+                                                <option value="lasanha">Lazanha</option>
+                                                <option value="risoto">Risoto</option>
+                                            </optgroup>
+                                        <option value="francesa">Francesa</option>
+                                    </select>
+                                </li>
+                                <hr>
+                                <li>
+                                    <label for="data_niver">Data do Aniversario</label>
+                                    <input type="date" name="data_niver" id="data_niver">
+                                </li>
+                                <li>
+                                    <label for="cor_festa">Cor do tema</label>
+                                    <input type="color" name="cor_festa" id="cor_festa" value="#ff00ff">
+                                </li>
+                                <hr>
+                                <li>
+                                    <label for="servicos">Serviços adicionais</label><br />
+                                        <input style="accent-color: red;" type="checkbox" name="servicos" id="musico">Musico
+                                        <input type="checkbox" name="servicos" id="danca_do_ventre">Dança do ventre
+                                        <input type="checkbox" name="servicos" id="magico">Magico
+                                </li>
+                                <hr>
+                                <li>
+                                    <label for="bolo">Bolo do aniversariante</label><br />
+                                        <input type="radio" name="bolo" id="bolo_proprio">Bolo Proprio
+                                        <input checked type="radio" name="bolo" id="bolo_nosso">Bolo Nosso restaurante
+                                    
+                                </li>
+                                <hr>
+                                <li>
+                                    <label for="obs">Observações</label> <br />
+                                    <textarea
+                                        name="obs"
+                                        id="obs"
+                                        cols="30"
+                                        rows="10"
+                                    ></textarea>
+                                </li>
+                                <li>
+                                    <input
+                                        type="image"
+                                        src="../images/png/btn_bolo.png"
+                                        alt="Enviar mensagem"
+                                        width="200"
+                                    />
+                                    <!--input type="submit" value="Confirmar o envio"-->
+                                    <!--button>Confirmar</button-->
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </form>
+                </article>
+                <article>
+                    <form
+                        oninput="pessoas.value=qtd.value; res.value= `R$ ${parseInt(qtd.value)*50},00`"
+                    >
+                        <label for="">Calcule a quantidade de convidados</label>
+                        <input
+                            type="range"
+                            name="qtd"
+                            id="qtd"
+                            min="1"
+                            max="10"
+                            value="1"
+                        />
+                        <input
+                            type="number"
+                            name="pessoas"
+                            id="pessoas"
+                            max="10"
+                            min="1"
+                            value="1"
+                        />
+                        <output name="res" id="res">R$ 50,00</output>
+                    </form>
+                </article>
+                <article id="carnes">
+                    <h2>Carnes</h2>
+                    <p>
+                        Lorem ipsum dolor
+                        <em>sit amet consectetur adipisicing elit.</em>
+                        Repellendus animi eum magni beatae repellat et quidem,
+                        cum quam ab nihil. Tempore eum dolor nobis porro?
+                        Eveniet quisquam reiciendis commodi similique?
+                    </p>
+                    <h3>Para acompanhar</h3>
+                    <dl>
+                        <dt>Carnes</dt>
+                        <dd>Maminha na manteiga</dd>
+                        <dd>Picanha maturada</dd>
+                        <dd>Fraldinha</dd>
+                    </dl>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quam architecto labore incidunt? Magni harum soluta
+                        nemo? Eum, vitae, ab totam asperiores deserunt at magnam
+                        numquam aliquam illum tempore incidunt a consequatur
+                        saepe quae, dolore tempora. Ipsam sunt totam suscipit
+                        modi? Deleniti odit perspiciatis nemo nulla numquam,
+                        deserunt facilis aliquid assumenda aut! Repellendus
+                        fugiat laboriosam pariatur architecto <br />beatae
+                        voluptas nobis, aut perspiciatis officia, aliquid
+                        placeat! Suscipit blanditiis optio facilis fuga unde
+                        earum adipisci veritatis id excepturi exercitationem. Ab
+                        quo a saepe voluptas officia distinctio consectetur,
+                        nisi dolorum sequi deserunt cum perspiciatis dolor eaque
+                        explicabo doloremque reprehenderit. Odio perferendis ad
+                        dolorem commodi nihil delectus illo dolores quod
+                        aspernatur obcaecati aperiam sequi quasi, officia eaque,
+                        repellat fuga nam veniam modi voluptate! Id, quas.
+                    </p>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quam architecto labore incidunt? Magni harum soluta
+                        nemo? Eum, vitae, ab totam asperiores deserunt at magnam
+                        numquam aliquam illum tempore incidunt a consequatur
+                        saepe quae, dolore tempora. Ipsam sunt totam suscipit
+                        modi? Deleniti odit perspiciatis nemo nulla numquam,
+                        deserunt facilis aliquid assumenda aut! Repellendus
+                        fugiat laboriosam pariatur architecto <br />beatae
+                        voluptas nobis, aut perspiciatis officia, aliquid
+                        placeat! Suscipit blanditiis optio facilis fuga unde
+                        earum adipisci veritatis id excepturi exercitationem. Ab
+                        quo a saepe voluptas officia distinctio consectetur,
+                        nisi dolorum sequi deserunt cum perspiciatis dolor eaque
+                        explicabo doloremque reprehenderit. Odio perferendis ad
+                        dolorem commodi nihil delectus illo dolores quod
+                        aspernatur obcaecati aperiam sequi quasi, officia eaque,
+                        repellat fuga nam veniam modi voluptate! Id, quas.
+                    </p>
+                </article>
+            </section>
+        </main>
+        <hr />
+        <footer>
+            <a href="../index.html#carnes">
+                <img
+                    width="180"
+                    src="../images/here-take-look-our-menu.jpg"
+                    alt="Conheça nosso menu"
+                    title="conheça nosso menu"
+                />
+            </a>
+            <p>&copy;2045 - Todos os direitos reservados</p>
+        </footer>
+    </body>
+</html>
